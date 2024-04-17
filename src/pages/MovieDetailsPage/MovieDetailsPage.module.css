@@ -1,0 +1,50 @@
+.section {
+  margin-bottom: 32px;
+}
+
+.buttonLink {
+  display: block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 120px;
+  height: 50px;
+  border-radius: 12px;
+  background-color: var(--accent);
+  color: white;
+  font-size: 18px;
+  margin-bottom: 24px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  transition: all 250ms ease-out;
+}
+.buttonLink:hover {
+  background-color: var(--hover);
+}
+
+.genre {
+  color: var(--text);
+  margin-bottom: 48px;
+}
+
+.list {
+  margin-bottom: 60px;
+  display: flex;
+  gap: 24px;
+}
+
+.details-link {
+  font-size: 18px;
+  text-decoration: none;
+  font-weight: 600;
+  color: var(--interactable);
+  margin: 0;
+}
+.details-link.active {
+  color: var(--accent);
+  text-decoration: underline;
+}
+
+.notfound {
+  color: var(--text);
+  font-weight: 600;
+}

@@ -1,0 +1,8 @@
+.section {
+  margin-bottom: 36px;
+}
+
+.title {
+  color: var(--accent);
+  text-align: center;
+}

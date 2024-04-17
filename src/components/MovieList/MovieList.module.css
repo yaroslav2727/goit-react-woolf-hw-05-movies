@@ -1,0 +1,13 @@
+.item {
+  margin-bottom: 12px;
+}
+
+.link {
+  color: var(--interactable);
+  font-size: 18px;
+  transition: all 250ms ease-out;
+}
+
+.link:hover {
+  color: var(--hover);
+}

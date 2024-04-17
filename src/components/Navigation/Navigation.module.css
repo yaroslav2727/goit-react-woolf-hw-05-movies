@@ -1,0 +1,23 @@
+.navigation {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  margin: 36px;
+}
+
+.link {
+  display: block;
+  text-align: center;
+  font-size: 32px;
+  font-weight: 600;
+  color: var(--text);
+  transition: all 250ms ease-out;
+}
+
+.link:hover {
+  color: var(--hover);
+}
+
+.active {
+  color: var(--accent);
+}
