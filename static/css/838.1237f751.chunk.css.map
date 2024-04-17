@@ -1,0 +1,1 @@
+{"version":3,"file":"static/css/838.1237f751.chunk.css","mappings":"AAAA,uBACI,aAAc,CACd,aACJ","sources":["components/Loader/Loader.module.css"],"sourcesContent":[".loader {\n    display: block;\n    margin: 0 auto;\n}"],"names":[],"sourceRoot":""}
